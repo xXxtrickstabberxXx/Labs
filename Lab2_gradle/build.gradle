@@ -1,0 +1,19 @@
+plugins {
+    id 'java'
+    id 'application'
+}
+
+repositories {
+    jcenter()
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.google.guava:guava:29.0-jre'
+    implementation files('libs/Pokemon.jar')
+    testImplementation 'junit:junit:4.13'
+}
+
+application {
+    mainClassName = 'Lab2_gradle.App'
+}
