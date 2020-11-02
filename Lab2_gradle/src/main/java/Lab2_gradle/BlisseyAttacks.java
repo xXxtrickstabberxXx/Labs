@@ -7,10 +7,6 @@ class Psychic extends SpecialMove {
         super(Type.PSYCHIC, 90, 100);
     }
 
-    protected void applyOppDamage(Pokemon pokemon, double damage) {
-        pokemon.setMod(Stat.HP, (int) Math.round(damage));
-    }
-
     protected void applyOppEffects(Pokemon pokemon) {
         Effect e = new Effect().chance(0.1).stat(Stat.SPECIAL_DEFENSE, -1);
         pokemon.addEffect(e);

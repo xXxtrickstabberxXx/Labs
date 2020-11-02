@@ -34,10 +34,6 @@ class DragonClaw extends PhysicalMove {
         super(Type.DRAGON, 80, 100);
     }
 
-    protected void applyOppDamage(Pokemon pokemon, double damage) {
-        pokemon.setMod(Stat.HP, (int) Math.round(damage));
-    }
-
     protected String describe() {
         return ("применяет Dragon Claw");
     }

@@ -17,3 +17,5 @@ dependencies {
 application {
     mainClassName = 'Lab2_gradle.App'
 }
+
+compileJava.options.encoding = 'UTF-8'
