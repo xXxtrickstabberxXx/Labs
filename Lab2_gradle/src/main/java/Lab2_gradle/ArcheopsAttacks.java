@@ -12,7 +12,7 @@ class Agility extends StatusMove {
     }
 
     protected String describe() {
-        return ("применяет Agility");
+        return ("uses Agility");
     }
 }
 
@@ -27,7 +27,7 @@ class Roost extends StatusMove {
     }
 
     protected String describe() {
-        return ("применяет Roost");
+        return ("uses Roost");
     }
 }
 
@@ -37,7 +37,7 @@ class DragonClaw extends PhysicalMove {
     }
 
     protected String describe() {
-        return ("применяет Dragon Claw");
+        return ("uses Dragon Claw");
     }
 }
 
@@ -52,6 +52,6 @@ class FocusBlast extends SpecialMove {
     }
 
     protected String describe() {
-        return ("применяет Focus Blast");
+        return ("uses Focus Blast");
     }
 }

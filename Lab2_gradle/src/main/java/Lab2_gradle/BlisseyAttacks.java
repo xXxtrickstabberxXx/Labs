@@ -13,7 +13,7 @@ class Psychic extends SpecialMove {
     }
 
     protected String describe() {
-        return ("применяет Psychic");
+        return ("uses Psychic");
     }
 }
 
@@ -29,7 +29,7 @@ class Refresh extends StatusMove {
     }
 
     protected String describe() {
-        return ("применяет Refresh");
+        return ("uses Refresh");
     }
 }
 
@@ -44,7 +44,7 @@ class MudBomb extends SpecialMove {
     }
 
     protected String describe() {
-        return ("применяет Mud Bomb");
+        return ("uses Mud Bomb");
     }
 }
 
@@ -59,6 +59,6 @@ class Blizzard extends SpecialMove {
     }
 
     protected String describe() {
-        return ("применяет Blizzard");
+        return ("uses Blizzard");
     }
 }

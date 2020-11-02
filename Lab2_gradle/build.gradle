@@ -7,15 +7,21 @@ repositories {
     jcenter()
     mavenCentral()
 }
-
+version = 1.0
 dependencies {
     implementation 'com.google.guava:guava:29.0-jre'
     implementation files('libs/Pokemon.jar')
     testImplementation 'junit:junit:4.13'
 }
 
+jar {
+    manifest {
+        attributes 'Main-Class': 'Lab2_gradle.App',
+        'Class-Path': 'libs/Pokemon.jar'
+    }
+    from zipTree('libs/Pokemon.jar')
+}
+
 application {
     mainClassName = 'Lab2_gradle.App'
 }
-
-compileJava.options.encoding = 'UTF-8'

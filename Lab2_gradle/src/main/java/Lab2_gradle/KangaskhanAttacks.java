@@ -12,7 +12,7 @@ class TailWhip extends StatusMove {
     }
 
     protected String describe() {
-        return ("применяет Tail Whip");
+        return ("uses Tail Whip");
     }
 }
 
@@ -27,7 +27,7 @@ class RockSlide extends PhysicalMove {
     }
 
     protected String describe() {
-        return ("применяет Rock Slide");
+        return ("uses Rock Slide");
     }
 }
 
@@ -42,7 +42,7 @@ class CrushClaw extends PhysicalMove {
     }
 
     protected String describe() {
-        return ("применяет Crush Claw");
+        return ("uses Crush Claw");
     }
 }
 
@@ -56,6 +56,6 @@ class Confide extends StatusMove {
     }
 
     protected String describe() {
-        return ("применяет Confide");
+        return ("uses Confide");
     }
 }
