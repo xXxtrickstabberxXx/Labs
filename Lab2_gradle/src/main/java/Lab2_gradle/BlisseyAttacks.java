@@ -55,7 +55,7 @@ class Blizzard extends SpecialMove {
 
     protected void applyOppEffects(Pokemon pokemon) {
         Effect e = new Effect().chance(0.1);
-        Effect.freeze(pokemon);
+        e.freeze(pokemon);
     }
 
     protected String describe() {
